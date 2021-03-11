@@ -5,8 +5,6 @@ public class Main {
         int bonus = 0;
         if (add > 1000) {
             bonus = add / 100;
-        } else {
-            account = account + add;
         }
         //account = account + add + bonus; //kinda irrelevant
         System.out.println(bonus);
